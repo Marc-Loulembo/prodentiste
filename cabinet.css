@@ -1,0 +1,89 @@
+.container{
+    max-width: 576px;
+    top: 45px;
+    border: 1px solid;
+}
+
+.logoo{
+    border-radius: 100px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: wrap;
+}
+
+a{
+    margin-right: 5px;
+    font-size: .85rem;
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+main .two{
+    background-color: aqua;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+main p{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.fin{
+    font-size: .65rem;
+}
+
+.together i{
+    float: left;
+}
+
+.quatre{
+    margin-top: 90px;
+}
+
+.personnels img{
+    width: 80%;
+    margin-left: 42px;
+}
+
+.cinq{
+    margin-top: 30px;
+}
+
+.six{
+    margin-top: 30px;
+}
+
+.sept{
+    margin-top: 30px;
+}
+
+.huit{
+    margin-top: 30px;
+}
+
+.four{
+    align-self: center;
+    width: 100%;
+}
+
+.croix{
+    background-color: rgb(211, 205, 205);
+    width: 100%;
+}
+
+footer{
+    background-color: aqua;
+}
+
+/* .para{
+    font-size: .65rem;
+} */

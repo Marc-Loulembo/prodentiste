@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 576px;
+    top: 45px;
+    border: 1px solid black;
+}
+
+.banniere {
+    /* height: 20.3em; */
+    background-image: url('./test_area/img/firstimg.png');
+    background-size: cover;
+    color: white;
+    
+   
+}
+
+
+
+.banniere img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.bloc{
+    background-color: aqua;
+}
+
+.bloc i{
+    font-size: 50px;;
+}
+
+.bloc-horloge i{
+    font-size: 38px;
+}
+
+nav {
+    border: 1px solid;
+}
+
+.footer{
+    background: rgb(210, 203, 203);
+}
+
+/* désolé madame j'aurai préféré coder en flex et grid retoucher boostrap c'est pas facile  */
+
+.cartes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1px;
+    padding: 10px;
+}
+
+div .carte-un, div.carte-deux{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+header ul{
+    display: flex;
+    flex-direction: wrap;
+}
+
+header li a{
+    margin-right: 5px;
+    font-size: .85rem;
+    text-decoration: none;
+    color: black;
+}
+
+div .carte-deux{
+    background-image: url('./test_area/img/card2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    margin-left: 15px;
+
+}
+
+div .carte-un{
+    background-image: url('./test_area/img/card1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+p.fd{
+    margin-top: 220px;
+    
+}
+
+.three{
+    background-color: brown;
+    
+}
+
+nav .logoo{
+    border-radius: 55px;
+}
+
+.dent{
+    background-image: url('./test_area/img/logo_dent.png');
+    height: 18rem;
+    background-size: 100%;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+.bacimg{
+    margin-left: 170px;
+    padding: 25px;
+    padding-right: 10px;
+}
+
+
+.croix{
+    background-color: rgb(211, 205, 205);
+    width: 100%;
+    margin-right: 50px;
+}
+
+.four{
+    align-self: center;
+    width: 100%;
+}
+
+.treize figure img{
+    width: 100%;
+    height: 10rem;
+
+}
+
+footer{
+    background-color: aqua;
+}
+
+.overflow-x{
+    overflow-x: auto;
+}
